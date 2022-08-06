@@ -2,7 +2,7 @@
 name = "jap-english-tech-worddeck"
 version = "0.1.0"
 description = "Japanese English word deck for system design"
-authors = ["Sudhansu Bhushan Mishra <sbmishra2000@gmail.com>", "avie-dev <avie.dev.prg@gmail.com>"]
+authors = ["Sudhansu Bhushan Mishra", "avie-dev"]
 license = "MIT"
 
 [tool.poetry.dependencies]
