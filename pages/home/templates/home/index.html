@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Japanese English Word Deck</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Japanese English Word Deck for System Design">
+	</head>
+	<body>
+		<main>
+			<h1>Japanese English Word Deck</h1>
+			<table>
+				<thead>
+					<th>Kanji</th>
+					<th>Kana</th>
+					<th>Roomaji</th>
+					<th>English</th>
+					<th>JP_Audio</th>
+					<th>EN_Audio</th>
+				</thead>
+				<tbody>
+					<tr>
+						{% for term in terms %}
+						<td lang="jp">{{ term.kanji }}</td>
+						<td lang="jp">{{ term.kana }}</td>
+						<td>{{ term.roomaji }}</td>
+						<td>{{ term.english_text }}</td>
+						<td>
+							<audio src="{{ term.japanese_audio_path }}" controls></audio>
+						</td>
+						<td>
+							<audio src="{{ term.english_audio_path }}" controls></audio>
+						</td>
+						{% endfor %}
+					</tr>
+				</tbody>
+			</table>
+		</main>
+	</body>
+</html>
