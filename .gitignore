@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-pyenv.cfg
+pyvenv.cfg
 lib/
 lib64/
 parts/
