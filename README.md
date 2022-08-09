@@ -1,15 +1,14 @@
 # jap-english-tech-worddeck
 
 ### A Japanese-English word deck for developers/engineers.
-### License
-MIT
+
 ### Contribution
 There are two main ways to contribute.
 1. Add or check the vocabulary list.
  - You will need knowledge with Japanese and English tech/dev words or phrases
 
 2. WebViewer Development
- - You will need to know about python, django and web development
+ - Uses python, django and web development
 
 #### How to contribute?
 
